@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* body{
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+} */
+#vid{
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+video{
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: block;
+    width: 100%;
+}
+#login{
+    width: 320px;
+    height: 420px;
+    border: 2px solid #FFFEFF;
+    border-radius: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, .75);
+    padding: 48px 28px;
+}
+.group{
+    display: flex;
+    align-items: center;
+}
+p{
+    color: #FFFEFF;
+    font-weight: bold;
+    margin: 5px;
+}
+h1{
+    color: #FFFEFF;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 20px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 25px;
+}
+label{
+    border: 2px solid #FFFEFF;
+    border-radius: 15px 0 0 15px;
+    box-shadow: 5px 5px 5px black;
+    padding: 15px;
+    padding-right: 0;
+    height: 15px;
+    background-color: #FFFEFF;
+    color: #333233;
+    width: 20%;
+    font-weight: bold;
+}
+input{
+    border: 2px solid #FFFEFF;
+    border-radius: 0 15px 15px 0;
+    box-shadow: 5px 5px 5px black;
+    padding: 15px;
+    height: 15px;
+    background-color: #FFFEFF;
+    color: #333233;
+    width: 80%;
+}
+button{
+    border: 2px solid #FFFEFF;
+    border-radius: 15px;
+    padding: 15px;
+    width: 100%;
+    font-size: 15px;
+    background-color: #FFFEFF;
+    color: #333233;
+    font-weight: bold;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,0);
+    width: 100%;
+    height: 100px;
+    background-color: #000000;
+    border-bottom: 2px solid #FFFEFF;
+}
+h2{
+    color: #FFFEFF;
+    padding: 35px;
+    font-weight: bold;
+    font-family: 'Garamond';
+}
+img{
+    width: 100px;
+    float: left;
+}
+.cabe{
+    display: flex;
+    align-items: flex-end;
+    width: 30px;
+    position: absolute;
+    top: 95%;
+    left: 95%;
+    transform: translate(-50%,-50%);
+}
+a{
+    border: 2px solid #FFFEFF;
+    border-radius: 15px;
+    padding: 15px;
+    font-size: 15px;
+    background-color: #FFFEFF;
+    color: #333233;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+}
